@@ -11,6 +11,11 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display:flex;
+    flex-wrap: wrap;
+}
+header nav ul li {
+    display:inline-flex;
 }
 
 header a {
@@ -19,13 +24,10 @@ header a {
 }
 
 header nav {
-    float: right;
+   
   margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
-}
   
 header nav ul li a {
     margin: 0 30px;
@@ -40,7 +42,6 @@ header h1 {
     font-size: 36px;
     color: #fcfcfc;
     margin: 0;
-    display: inline;
 }
 
 .About-Me{
@@ -51,7 +52,7 @@ header h1 {
 }
 
 .About-Me img {
-    width: 25%;
+    width: 10%;
     float: left;
 }
 
