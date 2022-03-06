@@ -43,11 +43,63 @@ header h1 {
     display: inline;
 }
 
+.About-Me{
+    background: #037f8d;
+    color: #fcfcfc;
+    overflow:auto;
+   
+}
+
+.About-Me img {
+    width: 25%;
+    float: left;
+}
+
+.About-Me h3 {
+    font-size: 32px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.About-Me h4 {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .Contact {
     text-align: center;
-    background: #39a6b2;
+    background: #037f8d;
 }
 .Contact-Info iframe {
     width: 400px;
     height: 400px;
 }
+
+.Work-Projects {
+    text-align: right;
+    width: 1200px;
+    margin: auto;
+    background: #39a6b2;
+    color: #fcfcfc;
+    overflow:auto;
+}
+.Work-Projects img {
+    width: 50%;
+    float: left;
+  }
+.Project-Descriptions {
+    padding: 50px;
+    text-align: right;
+    float: right;
+    width: 65%;
+    background: #39a6b2;
+    color: #fcfcfc;
+    line-height: 1.5;
+  }
+.Project-Descriptions h4 {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
